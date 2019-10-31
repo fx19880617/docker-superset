@@ -1,4 +1,4 @@
-image  := amancevice/superset
+image  := fx19880617/superset
 stages := build dist final
 shells := $(foreach stage,$(stages),shell@$(stage))
 
